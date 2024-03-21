@@ -43,3 +43,7 @@ export function userstate(){
     }
   });
 }
+
+// crear cuentas de autenticacion
+export const registerauth=(email,password)=>
+  createUserWithEmailAndPassword(auth, email, password)
